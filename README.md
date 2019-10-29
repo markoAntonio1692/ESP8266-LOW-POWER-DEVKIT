@@ -3,7 +3,7 @@ ESP8266  LOW POWER DEVKIT
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
 
-### Caracteristicas
+# Caracteristicas
 
 - Diseñado para un ultrabajo consumo de energia.
 - Chip ESP07 o ESP07S a bordo.
@@ -46,6 +46,14 @@ ESP8266  LOW POWER DEVKIT
 
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduino.jpg)
+
+- Ya cargado el Sketch a su ESP8266 LOW POWER DEVKIT Cambie la posicion del Jumper a su estado inicial, para que el esp8266 funciones de modo normal.
+
+# Transitor Mosfet N en pin D8 (D8/DOP) 
+-  Use este transistor para activar cargas de un maximo de 250 mA, con una salida de 1 logico o HIGH, enciende la carga, con 0 o LOW apaga a la carga.
+
+![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/mosfet.jpg)
+
 
 
 
