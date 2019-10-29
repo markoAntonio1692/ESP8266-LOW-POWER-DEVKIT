@@ -21,7 +21,7 @@
 - Programable con Ide Arduino.
 - Compatible con pines de placa "Nodemcu".
 
-##Cargar un Programa a ESP8266 DEVKIT LOW POWER
+## Cargar un Programa a ESP8266 DEVKIT LOW POWER
 - Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
 - Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
 
