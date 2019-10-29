@@ -11,7 +11,7 @@
 - Diseñado para un ultrabajo consumo de energia.
 - Chip ESP07 o ESP07S a bordo.
 - Puede conectar una antena externa para tener mayor señal
-- Ideal para aplicaciones con baterias de tipo Iones de Litio 1S.
+- Ideal para aplicaciones con baterias de tipo Iones de Litio 1S y paneles solares
 - Cuenta con un regulador de tension LDO TC1262 3.3V puede suministrar hasta 500mA.
 - Incorpora un transistor mosfet canal N  en modo Drenador abierto (Drain open) conectado al Pin D8 (GPIO15), para activar o desativar circuitos con un maximo de corriente de 250mA.
 - Boton de reset.
@@ -81,7 +81,7 @@
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduino.jpg)
 
-- Ya cargado el Sketch a su ESP8266 LOW POWER DEVKIT Cambie la posicion del Jumper a su estado inicial, para que el esp8266 funciones de modo normal.
+- Una vez cargado el Sketch a su ESP8266 LOW POWER DEVKIT Cambie la posicion del Jumper a su estado inicial, para que el esp8266 funciones de modo normal.
 
 ## Transitor Mosfet N en pin D8 (D8/DOP) 
 -  Use este transistor para activar cargas de un maximo de 250 mA, con una salida de 1 logico o HIGH, enciende la carga, con 0 o LOW apaga a la carga.
