@@ -1,20 +1,14 @@
 # ESP8266-LOW-POWER-DEVKIT
 
 **Table of Contents**
-
 [TOCM]
 
 [TOC]
+#ESP8266 LOW POWER DEVKIT IMAGEN
+# Cargar un Programa a ESP8266 DEVKIT LOW POWER
+# Caracteristicas
 
-#H1 header
-##H2 header
-###H3 header
-####H4 header
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##ESP8266  LOW POWER DEVKIT
+## ESP8266 LOW POWER DEVKIT IMAGEN
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
 
@@ -35,7 +29,7 @@
 - Programable con Ide Arduino.
 - Compatible con pines de placa "Nodemcu".
 
-# Cargar un Programa a ESP8266 DEVKIT LOW POWER
+##Cargar un Programa a ESP8266 DEVKIT LOW POWER
 - Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
 - Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
 
