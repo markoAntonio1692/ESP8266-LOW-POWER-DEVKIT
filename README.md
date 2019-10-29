@@ -5,11 +5,6 @@
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
 
 
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
-
 
 ## Caracteristicas
 
@@ -27,6 +22,14 @@
 - Pin Header "SW" o Switch. puede agregar un interruptor externo, o puede solamente unirlos colocando un Jumper.
 - Programable con Ide Arduino.
 - Compatible con pines de placa "Nodemcu".
+
+
+## Caracteristicas Electricas
+
+| Voltaje Maximo | 6.5 Voltios                    |
+| ------------- | ------------------------------ |
+| Voltaje Minimo     3.5 Voltios       |
+| `destroy()`   | **Destroy your computer!**     |
 
 
 ## Cargar un Programa a ESP8266 DEVKIT LOW POWER
