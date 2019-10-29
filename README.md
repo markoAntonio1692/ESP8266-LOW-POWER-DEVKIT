@@ -59,9 +59,8 @@
 - Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/vin.JPG)
+- Utilice un Conversor UBS A Serial TTL como FTDI, CH340, CP210x, etc. Conectelo de la forma correspondiente. 
 - Cambie el Jumper a la posicion que se muestra en la imagen y reinicie, este cambio pondra a la esp8266 en modo programacion
-- Utilice un Conversor UBS A Serial TTL como FTDI, CH340, CP210x, etc. Conectelo de esta forma. 
-
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/serial.jpg)
 
 - Conecte a su PC su Conversor UBS A Serial TTL, espere que sea reconocido por los drivers.
@@ -72,13 +71,13 @@
  (Si no tiene instalado la placa esp8266 en Ide Arduino se recomienda usar los Siguientes pasos)
 `<link>` : <https://www.luisllamas.es/programar-esp8266-con-el-ide-de-arduino/>
 
-
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/serial.jpg)
-
+![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduinocom.jpg)
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduino.jpg)
 
-- Una vez cargado el Sketch a su ESP8266 LOW POWER DEVKIT Cambie la posicion del Jumper a su estado inicial, para que el esp8266 funciones de modo normal.
+![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduinoprog.jpg)
+
+- Una vez cargado el Sketch a su ESP8266 LOW POWER DEVKIT Cambie la posicion del Jumper a su estado inicial y nuevamente reinicie con el boton reset, el esp8266 arrancara con su el sketch cargado.
 
 ## Transitor Mosfet N en pin D8 (D8/DOP) 
 -  Use este transistor para activar cargas de un maximo de 250 mA, con una salida de 1 logico o HIGH, enciende la carga, con 0 o LOW apaga a la carga.
