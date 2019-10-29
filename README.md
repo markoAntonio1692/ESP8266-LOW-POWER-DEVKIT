@@ -1,16 +1,20 @@
 # ESP8266-LOW-POWER-DEVKIT
 ESP8266  LOW POWER DEVKIT
+
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
 
 ### Caracteristicas
 
 - Diseñado para un ultrabajo consumo de energia.
-- Ideal para aplicaciones con baterias de Ion de Litio 1S.
+- Chip ESP07 o ESP07S a bordo.
+- Puede conectar una antena externa para tener mayor señal
+- Ideal para aplicaciones con baterias de tipo Iones de Litio 1S.
 - Cuenta con un regulador de tension LDO TC1262 3.3V puede suministrar hasta 500mA.
 - Incorpora un transistor mosfet canal N  en modo Drenador abierto (Drain open) conectado al Pin D8 (GPIO15), para activar o desativar circuitos con un maximo de corriente de 250mA.
 - Boton de reset.
 - Jumper para cambiar de  modo programacion a modo normal y viceversa.
 - Jumper en el pin D0 a GND para modo "Deep Sleep"
+- Pin Header "SW" o Switch. puede agregar un interruptor externo, o usar soloamente con un Jumper.
 - Programable con Ide Arduino.
 - Compatible con pines de placa "Nodemcu".
 
@@ -24,6 +28,16 @@ ESP8266  LOW POWER DEVKIT
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/jumper.jpg)
 
 - Utilice un Conversor UBS A Serial TTL como FTDI, CH340, CP210x, etc. Conectelo de esta forma. 
+
+![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/serial.jpg)
+
+- Conecte a su PC su Conversor UBS A Serial TTL, espere que sea reconocido por los drivers.
+- Abra su ide Arduino.
+- selecciones su puerto COM que fue detectado.
+- Seleciones la Placa Nodemcu 1.0 y Cargue!
+ (Si no tiene instalado la placa esp8266 en Ide Arduino se recomienda usar los Siguientes pasos)
+`<link>` : <https://www.luisllamas.es/programar-esp8266-con-el-ide-de-arduino/>
+
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/serial.jpg)
 
