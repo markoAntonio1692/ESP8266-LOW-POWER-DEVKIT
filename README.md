@@ -4,6 +4,13 @@
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
 
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     |
+
+
 ## Caracteristicas
 
 - Diseñado para un ultrabajo consumo de energia.
