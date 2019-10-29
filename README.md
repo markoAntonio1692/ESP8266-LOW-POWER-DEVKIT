@@ -60,9 +60,6 @@
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/vin.JPG)
 - Cambie el Jumper a la posicion que se muestra en la imagen y reinicie, este cambio pondra a la esp8266 en modo programacion
-
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/jumper.jpg)
-
 - Utilice un Conversor UBS A Serial TTL como FTDI, CH340, CP210x, etc. Conectelo de esta forma. 
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/serial.jpg)
