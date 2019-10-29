@@ -1,13 +1,5 @@
 # ESP8266-LOW-POWER-DEVKIT
 
-**Table of Contents**
-[TOCM]
-
-[TOC]
-#ESP8266 LOW POWER DEVKIT IMAGEN
-# Cargar un Programa a ESP8266 DEVKIT LOW POWER
-# Caracteristicas
-
 ## ESP8266 LOW POWER DEVKIT IMAGEN
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
