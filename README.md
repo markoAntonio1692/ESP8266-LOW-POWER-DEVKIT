@@ -35,8 +35,28 @@
 | Lectura Analogica pin ADC   | 0-6V     |
 | Lectrura analogica pin A0   | 0-1V     |
 
+##Descripcion de pines
 
-## Cargar un Programa a ESP8266 DEVKIT LOW POWER
+## Caracteristicas Electricas
+
+| Pin| Descripcion                    |
+| ------------- | ------------------------------ |
+| D0 |  GPIO16, Wake up deep Sleep    |  
+| D1  |  GPIO5, SCL    | 
+| D2   | GPIO4, SDA     |
+| D3/PU   | GPIO0,      |
+| D4/PU/LED   | 0-6V     |
+| D5   | 0-1V     |
+| D6   | 0-1V     |
+| D7   | 0-1V     |
+| D8/DOP   | 0-1V     |
+| ADC   | 0-1V     |
+| A=   | 0-1V     |
+
+
+
+
+# Cargar un Programa a ESP8266 DEVKIT LOW POWER
 - Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
 - Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
 
