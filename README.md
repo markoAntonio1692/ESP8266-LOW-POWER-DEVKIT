@@ -32,28 +32,26 @@
 | Voltaje  Salida  |  3.3 Voltios    | 
 | Corriente minima en reposo   | 80uA     |
 | Corriente maxima   | 500mA     |
-| Lectura Analogica pin ADC   | 0-6V     |
-| Lectrura analogica pin A0   | 0-1V     |
+| Lectura Analogica pin ADC   | 0-6 Voltios     |
+| Lectrura analogica pin A0   | 0-1 Voltios     |
 
-##Descripcion de pines
-
-## Caracteristicas Electricas
+## Descripcion de pines
 
 | Pin| Descripcion                    |
 | ------------- | ------------------------------ |
 | D0 |  GPIO16, Wake up deep Sleep    |  
 | D1  |  GPIO5, SCL    | 
 | D2   | GPIO4, SDA     |
-| D3/PU   | GPIO0,      |
-| D4/PU/LED   | 0-6V     |
-| D5   | 0-1V     |
-| D6   | 0-1V     |
-| D7   | 0-1V     |
-| D8/DOP   | 0-1V     |
-| ADC   | 0-1V     |
-| A=   | 0-1V     |
-
-
+| D3/PU   | GPIO0, pull_up, Flash mode     |
+| D4/PU/LED   | GPIO4, pull_up, led interno esp     |
+| D5   | GPIO14, SCLK     |
+| D6   | GPIO12, MISO     |
+| D7   | GPIO13, MOSI     |
+| D8/DOP   | GPIO15, Drenador abierto (Drain open), CS     |
+| TX   | GPIO1     |
+| RX   | GPIO3    |
+| ADC   | Lectrura analogica [0-1] Voltios    |
+| A0   | Lectrura analogica [0-6] Voltios   |
 
 
 # Cargar un Programa a ESP8266 DEVKIT LOW POWER
