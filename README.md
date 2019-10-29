@@ -26,9 +26,10 @@
 
 ## Caracteristicas Electricas
 
-| Voltaje Maximo | 6.5 Voltios                    |
+| Voltaje Maximo VIN| 6.5 Voltios                    |
 | ------------- | ------------------------------ |
-| Voltaje Minimo   |  3.5 Voltios       
+| Voltaje Minimo  VIN |  3.5 Voltios    |  
+| Voltaje  Salida  |  3.3 Voltios    | 
 | Corriente minima en reposo   | 80uA     |
 | Corriente maxima   | 500mA     |
 | Lectura Analogica pin ADC   | 0-6V     |
