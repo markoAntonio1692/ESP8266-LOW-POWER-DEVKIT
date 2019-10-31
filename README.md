@@ -10,8 +10,8 @@
 
 - Diseñado para un ultrabajo consumo de energia.
 - Chip ESP07 o ESP07S a bordo.
-- Puede conectar una antena externa para tener mayor señal
-- Ideal para aplicaciones con baterias de tipo Iones de Litio 1S y paneles solares
+- Puede conectar una antena externa para  mayor señal
+- Ideal para aplicaciones con baterias de tipo Li-Ion 1S y paneles solares
 - Cuenta con un regulador de tension LDO TC1262 3.3V puede suministrar hasta 500mA.
 - Incorpora un transistor mosfet canal N  en modo Drenador abierto (Drain open) conectado al Pin D8 (GPIO15), para activar o desativar circuitos con un maximo de corriente de 250mA.
 - Boton de reset.
