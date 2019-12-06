@@ -36,14 +36,21 @@
 
 ## Descripcion de pines ESP8266 LOW POWER DEVKIT
 
-| Voltaje Maximo VIN| 6.5 Voltios                    |
+| Pin| Descripcion                    |
 | ------------- | ------------------------------ |
-| Voltaje Minimo  VIN |  3.5 Voltios    |  
-| Voltaje  Salida  |  3.3 Voltios    | 
-| Corriente minima en reposo   | 80uA     |
-| Corriente maxima   | 500mA     |
-| Lectura Analogica pin ADC   | 0-6 Voltios     |
-| Lectrura analogica pin A0   | 0-1 Voltios     |
+| D0 |   GPIO16, Pin Wake Up   |  
+| D1  |  GPIO5, SCL I2C   | 
+| D2   | GPIO4, SDA I2C |
+| D3/PU   | GPIO0, PMODE     |
+| D4/PU/LED   | GPIO2, LED     |
+| D5   | GPIO14, SCLK SPI     |
+| D6   | GPIO12, MISO SPI     |
+| D7   | GPIO13, MOSI SPI      |
+| D8/DOP   | GPIO15, CS, MOSFET CANAL N DRENADOR ABIERTO     |
+| ADC   | ADC 0-1 Voltios     |
+| AO   | ADC 0-6 Voltios     |
+
+
 # Cargar un Programa a ESP8266 DEVKIT LOW POWER
 - Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
 - Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
