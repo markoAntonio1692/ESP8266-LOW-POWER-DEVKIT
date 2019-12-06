@@ -41,8 +41,8 @@
 | D0 |   GPIO16, Pin Wake Up   |  
 | D1  |  GPIO5, SCL I2C   | 
 | D2   | GPIO4, SDA I2C |
-| D3/PU   | GPIO0, PMODE     |
-| D4/PU/LED   | GPIO2, LED     |
+| D3/PU   | GPIO0, PULL UP,  PMODE     |
+| D4/PU/LED   | GPIO2, PULLUP, LED     |
 | D5   | GPIO14, SCLK SPI     |
 | D6   | GPIO12, MISO SPI     |
 | D7   | GPIO13, MOSI SPI      |
