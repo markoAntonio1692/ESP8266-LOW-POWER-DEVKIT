@@ -3,7 +3,7 @@
 ## ESP8266 LOW POWER DEVKIT IMAGEN
 
 ![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/frontal.JPG)
-![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/2.JPG)
+
 ## Caracteristicas
 
 - Diseñado para un ultrabajo consumo de energia.
@@ -24,6 +24,18 @@
 
 ## Caracteristicas Electricas
 
+| Descripcion| Unidad                   |
+| ------------- | ------------------------------ |
+| Voltaje Maximo VIN |  6.5 Voltios     |  
+| Voltaje Minimo  VIN |  3.5 Voltios    |  
+| Voltaje  Salida  |  3.3 Voltios    | 
+| Corriente minima en reposo   | 80uA     |
+| Corriente maxima   | 500mA     |
+| Lectura Analogica pin ADC   | 0-6 Voltios     |
+| Lectrura analogica pin A0   | 0-1 Voltios     |
+
+## Descripcion de pines ESP8266 LOW POWER DEVKIT
+
 | Voltaje Maximo VIN| 6.5 Voltios                    |
 | ------------- | ------------------------------ |
 | Voltaje Minimo  VIN |  3.5 Voltios    |  
@@ -32,11 +44,6 @@
 | Corriente maxima   | 500mA     |
 | Lectura Analogica pin ADC   | 0-6 Voltios     |
 | Lectrura analogica pin A0   | 0-1 Voltios     |
-
-## Descripcion de pines 32U4 DEVKIT SIGOX
-
-![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/PINOUT.png)
-
 # Cargar un Programa a ESP8266 DEVKIT LOW POWER
 - Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
 - Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
